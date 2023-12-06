@@ -1,0 +1,55 @@
+
+server:
+  port: 8082
+spring:
+  profiles:
+    active: dev
+  data:
+    mongodb:
+      uri : mongodb+srv://Narendra:1234567890@cluster0.bnbn0m3.mongodb.net/?retryWrites=true&w=majority
+      database: WalletBanking
+jwt:
+  secret-key: 614E645267556B58703273357638792F423F4528482B4D6251655368566D5971
+
+#
+#spring:
+#  profiles:
+#    active: dev
+#
+#---
+#server:
+#  port: 8082
+#spring:
+#  profiles: dev
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://Narendra:1234567890@cluster0.bnbn0m3.mongodb.net/?retryWrites=true&w=majority
+#      database: WalletBanking
+#  jwt:
+#    secret-key: 614E645267556B58703273357638792F423F4528482B4D6251655368566D5971
+#
+#---
+#  server:
+#    port: 8083
+#  spring:
+#    profiles: qa
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://qaUsername:qaPassword@qaCluster.mongodb.net/?retryWrites=true&w=majority
+#      database: WalletBankingQA
+#  jwt:
+#    secret-key: QASecretKeyHere
+#
+#---
+#
+#
+#  server:
+#    port: 8084
+#  spring:
+#      profiles: prod
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://prodUsername:prodPassword@qaCluster.mongodb.net/?retryWrites=true&w=majority
+#      database: WalletBankingPROD
+#  jwt:
+#    secret-key: PRODSecretKeyHere

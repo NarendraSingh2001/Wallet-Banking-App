@@ -1,0 +1,8 @@
+#  server:
+#    port: 8083
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://qaUsername:qaPassword@qaCluster.mongodb.net/?retryWrites=true&w=majority
+#      database: WalletBankingQA
+#  jwt:
+#    secret-key: QASecretKeyHere

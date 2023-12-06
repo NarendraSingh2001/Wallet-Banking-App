@@ -1,0 +1,12 @@
+#server:
+#  port: 8084
+#
+#spring:
+#  profiles:
+#    active: prod
+#  data:
+#    mongodb:
+#      uri: mongodb+srv://prodUsername:prodPassword@qaCluster.mongodb.net/?retryWrites=true&w=majority
+#      database: WalletBankingPROD
+#jwt:
+#  secret-key: PRODSecretKeyHere
